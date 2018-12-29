@@ -31,7 +31,6 @@ const myDiscriminator = ["0000", "0001", "0002", "0003", "0004", "0005", "0006",
 const password = "01067054858";//بسورد حسابك عليشن الكود يقدر يغير الاسم
 const token = "NTI1NDM0NTQ4OTM5NjUzMTUx.DwgOvQ._KZFdGVu58UPpECQ8tNpoWMEgwk"; // توكن حسابك
 //Toxic Codes
-bot.login(token);//Toxic Codes
 //Toxic Codes
 function changeDiscriminator() {
   if (myDiscriminator.includes(bot.user.discriminator.toString()))
