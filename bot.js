@@ -51,13 +51,6 @@ function changeDiscriminator() {
   }//Toxic Codes
 }//Toxic Codes
  
-bot.once("ready", () => {//Toxic Codes
-  console.log(Date.now(), "Started with " + bot.users.size + " users.");
-  changeDiscriminator();//Toxic Codes
-  if(myDiscriminator.includes(bot.user.discriminator)) {
-      console.log(`I successfully got the discrim ${bot.user.discriminator}!`)
-      process.exit();//Toxic Codes
-  }//Toxic Codes
-});//Toxic Codes
+
 
 client.login(process.env.BOT_TOKEN);
